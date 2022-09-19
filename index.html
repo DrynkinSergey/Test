@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quadro Test</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+
+    <div id="app">
+      <div style=' padding: 60px 20px; text-align: center;'>
+    <canvas  id="canvas" width="350" height="250"></canvas>
+      </div>
+      <div class="control">
+        <button id="rotateZ">Вращение ⭮</button>
+        <span> Длина детали: </span>
+        <input min='50' max='250'  id="heightInput" placeholder="Длина:" type="number" />
+        <span> Ширина детали: </span>
+        <input min='50' max='350' id="widthInput" placeholder="Ширина:" type="number" />
+        <span> Радиус правого угла: </span>
+        <input id="rightAngleInput" max='350' min='0' placeholder="Радиус:" type="number" />`
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
